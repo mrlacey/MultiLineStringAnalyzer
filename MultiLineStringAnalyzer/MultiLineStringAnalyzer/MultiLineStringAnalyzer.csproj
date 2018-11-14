@@ -8,7 +8,7 @@
 
   <PropertyGroup>
     <PackageId>MultiLineStringAnalyzer</PackageId>
-    <PackageVersion>1.0.0.0</PackageVersion>
+    <PackageVersion>1.1.0.0</PackageVersion>
     <Authors>Matt Lacey</Authors>
     <PackageLicenseUrl>https://github.com/mrlacey/MultiLineStringAnalyzer/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/mrlacey/MultiLineStringAnalyzer</PackageProjectUrl>
@@ -16,11 +16,12 @@
     <RepositoryUrl>https://github.com/mrlacey/MultiLineStringAnalyzer</RepositoryUrl>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Description>Provides an anlayzer for converting an implicit string that contains \r\n into multiple strings combined with Environment.NewLine</Description>
-    <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
-    <Copyright>Copyright</Copyright>
+    <PackageReleaseNotes>Changed severity to Info</PackageReleaseNotes>
+    <Copyright>Copyright 2018</Copyright>
     <PackageTags>MultiLineStringAnalyzer, analyzers</PackageTags>
     <NoPackageAnalysis>true</NoPackageAnalysis>
     <Company>Matt Lacey Ltd.</Company>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
