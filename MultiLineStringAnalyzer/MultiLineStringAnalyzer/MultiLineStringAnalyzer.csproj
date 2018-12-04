@@ -8,7 +8,7 @@
 
   <PropertyGroup>
     <PackageId>MultiLineStringAnalyzer</PackageId>
-    <PackageVersion>1.1.0.0</PackageVersion>
+    <PackageVersion>1.2.0.0</PackageVersion>
     <Authors>Matt Lacey</Authors>
     <PackageLicenseUrl>https://github.com/mrlacey/MultiLineStringAnalyzer/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/mrlacey/MultiLineStringAnalyzer</PackageProjectUrl>
