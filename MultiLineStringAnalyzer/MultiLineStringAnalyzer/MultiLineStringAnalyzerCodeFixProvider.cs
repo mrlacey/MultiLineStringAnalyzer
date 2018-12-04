@@ -54,7 +54,7 @@ namespace MultiLineStringAnalyzer
 
             var oldText = ((LiteralExpressionSyntax)nodeWithEmbeddedCrLf).Token.ValueText;
 
-            var textLines = oldText.Split(new []{"\r\n"}, StringSplitOptions.None);
+            var textLines = oldText.Split(new[] { "\r\n" }, StringSplitOptions.None);
 
             LiteralExpressionSyntax GetLine(int index)
             {
@@ -77,8 +77,8 @@ namespace MultiLineStringAnalyzer
                     var envNewLine = SyntaxFactory.MemberAccessExpression(SyntaxKind.SimpleMemberAccessExpression, environment, newLine);
 
                     var newLineExpression = SyntaxFactory.BinaryExpression(SyntaxKind.AddExpression, envNewLine, SyntaxFactory.Token(SyntaxKind.PlusToken), GetLine(index));
-                    
-                    return SyntaxFactory.BinaryExpression(SyntaxKind.AddExpression, AddLineRecursive(index -1),SyntaxFactory.Token(SyntaxKind.PlusToken), newLineExpression);
+
+                    return SyntaxFactory.BinaryExpression(SyntaxKind.AddExpression, AddLineRecursive(index - 1), SyntaxFactory.Token(SyntaxKind.PlusToken), newLineExpression);
                 }
                 else
                 {
@@ -93,5 +93,5 @@ namespace MultiLineStringAnalyzer
 
             return document.WithSyntaxRoot(newRoot);
         }
-}
+    }
 }

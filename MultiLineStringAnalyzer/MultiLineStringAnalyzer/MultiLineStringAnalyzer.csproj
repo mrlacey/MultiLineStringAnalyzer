@@ -15,13 +15,15 @@
     <PackageIconUrl></PackageIconUrl>
     <RepositoryUrl>https://github.com/mrlacey/MultiLineStringAnalyzer</RepositoryUrl>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <Description>Provides an anlayzer for converting an implicit string that contains \r\n into multiple strings combined with Environment.NewLine</Description>
+    <Description>Provides an analyzer for converting an implicit string that contains \r\n into multiple strings combined with Environment.NewLine.</Description>
     <PackageReleaseNotes>Changed severity to Info</PackageReleaseNotes>
     <Copyright>Copyright 2018</Copyright>
     <PackageTags>MultiLineStringAnalyzer, analyzers</PackageTags>
     <NoPackageAnalysis>true</NoPackageAnalysis>
     <Company>Matt Lacey Ltd.</Company>
-    <Version>1.1.0</Version>
+    <Version>1.2.0</Version>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
+    <FileVersion>1.2.0.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
