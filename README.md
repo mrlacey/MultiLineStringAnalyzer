@@ -1,5 +1,7 @@
 # MultiLineStringAnalyzer
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 A Roslyn/CodeAnalysis analyzer for splitting multi-line string literals and converting them to use `Environment.NewLine`.
 
 Available as a NuGet package.
